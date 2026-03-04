@@ -269,7 +269,7 @@ main {
 
 @media (min-width:768px){
 #handWrap {
-    cursor:copy;
+    cursor:grab;
 }
 
 #hand{
