@@ -1,0 +1,9 @@
+User-agent: *
+# CSS, JS, Images
+Disallow: *.css
+Disallow: *.js
+Disallow: *.gif
+Disallow: *.jpg
+Disallow: *.jpeg
+Disallow: *.png
+Disallow: *.svg
