@@ -7,3 +7,6 @@ Disallow: *.jpg
 Disallow: *.jpeg
 Disallow: *.png
 Disallow: *.svg
+Disallow: /fonts
+Disallow: /icons
+Disallow: /images
