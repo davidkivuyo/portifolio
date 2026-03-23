@@ -4,7 +4,7 @@ function verifyToken(string $token, string $ip): array {
     "secret" => "ES_45332c34bb3a4c0b9def22e0b6362a9a",
     "response" => $token,
     "remoteip" => $ip,
-    "sitekey" => "54c222d6-535e-4b7e-9476-dd144a00dc3c",
+    "sitekey" => "49ec61e6-7e2a-4e0c-9c68-745276e42d22",
   ]);
   $ctx = stream_context_create([
     "http" => [
