@@ -15,6 +15,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="https://js.hcaptcha.com/1/api.js" async defer></script>
 </head>
 <body>
 
@@ -245,12 +246,12 @@ with great stack
 
 </div>
 
-<!-- contact form-->
+<!-- contact form action="https://api.web3forms.com/submit"-->
 <div class="" id="contact">
 <p class="designfont" style="color: rgb(30, 48, 80); font-size: 50px;">Contact form</p>
 
 <div class="container">
-  <form action="https://api.web3forms.com/submit" style="background-color: rgb(166, 203, 235); padding: 1rem; border-radius: 2rem; margin: 2rem;" method="POST" class="offset">
+  <form  action='form.php' style="background-color: rgb(166, 203, 235); padding: 1rem; border-radius: 2rem; margin: 2rem;" method="POST" class="offset">
     <input type="hidden" name="access_key" value="047f0656-73da-47fe-8d64-6b537c5a1dec">
     <div class="mb-1">
      <label for="name" class=" text">Name</label>
@@ -274,8 +275,13 @@ with great stack
 
   <div class="mb-1">
     <label for="message" class="form-label text">Message</label>
-<textarea name="message" placeholder="can you elaborate more about your the service request🙏" class="form-control" required></textarea>
+<textarea name="message" placeholder="message..." class="form-control" required></textarea>
   </div>
+<div class="mb-1">
+  <div class="h-captcha" data-sitekey="49ec61e6-7e2a-4e0c-9c68-745276e42d22"></div>
+</div>
+
+
   <div class="mb-1">
     <button class="offset btn" style="width: 100px; border: 2px black solid;">send</button>
   </div>
