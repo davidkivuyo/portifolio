@@ -10,3 +10,5 @@ Disallow: *.svg
 Disallow: /fonts
 Disallow: /icons
 Disallow: /images
+Disallow: *.html
+Disallow: *.php
