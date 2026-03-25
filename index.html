@@ -254,7 +254,7 @@ with great stack
 <p class="designfont" style="color: rgb(30, 48, 80); font-size: 50px;">Contact form</p>
 
 <div class="container">
-  <form action="https://api.web3forms.com/submit" style="background-color: rgb(166, 203, 235); padding: 1rem; border-radius: 2rem; margin: 2rem;" method="POST" class="offset">
+  <form action="https://api.web3forms.com/submit" style="background-color: rgb(166, 203, 235); padding: 1rem; border-radius: 2rem; margin: 2rem;" method="POST" class="offset" id="YOUR_FORM_ID">
     <input type="hidden" name="access_key" value="047f0656-73da-47fe-8d64-6b537c5a1dec">
     <div class="mb-1">
      <label for="name" class=" text">Name</label>
@@ -280,12 +280,14 @@ with great stack
     <label for="message" class="form-label text">Message</label>
 <textarea name="message" placeholder="message..." class="form-control" required></textarea>
   </div>
-<div class="mb-1">
-  <div class="h-captcha" data-sitekey="49ec61e6-7e2a-4e0c-9c68-745276e42d22"></div>
-</div>
 
-<div class="mt-2 mb-2"><label for="checkbox" name="checkbox"><input type="checkbox" name="checkbox"><strong>add me to your email newsletter list</strong></label></div>
-  <div class="mb-1">
+<div class="h-captcha" data-captcha="true"></div>
+ 
+                <label>
+                <input type="checkbox" name="checkbox" class="form-check-input mb-3" >
+                <strong>Add me to your email newsletter list</strong>
+              </label>
+<div class="mb-1">
     <button class="offset btn" style="width: 100px; border: 2px black solid;">send</button>
   </div>
   </form>
@@ -353,7 +355,22 @@ with great stack
         </script>
 
 
+<!-- Step 2: Add the Web3Forms script -->
+<script src="https://web3forms.com/client/script.js" async defer></script>
+<script>
+const form = document.getElementById('YOUR_FORM_ID');
 
+form.addEventListener('submit', function(e) {
+
+    const hCaptcha = form.querySelector('textarea[name=h-captcha-response]').value;
+
+    if (!hCaptcha) {
+        e.preventDefault();
+        alert("Please fill out captcha field")
+        return
+    }
+});
+</script>
 <script src="porto.js"></script>
 </body>
 </html>
