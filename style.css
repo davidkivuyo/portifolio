@@ -170,7 +170,6 @@ main {
 .footer-social a i {
   align-items: center;
   color: rgb(30, 48, 80);
-  cursor: url('icons/apache-svgrepo-com.png'), auto;
 }
 
 .footer-content i:hover{
