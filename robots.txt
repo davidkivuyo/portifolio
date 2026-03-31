@@ -12,3 +12,5 @@ Disallow: /icons
 Disallow: /images
 Disallow: *.html
 Disallow: *.php
+
+# Algolia-Crawler-Verif: 5C5DC7DF039EF2EE
