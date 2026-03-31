@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: myfonts;
-  src: url(/fonts/Chopic3DFreeVersionRegular-MVqvv.ttf);
+  src: url(../fonts/Chopic3DFreeVersionRegular-MVqvv.ttf);
 }
 
 main {
@@ -33,11 +33,11 @@ main {
 }
 
 .brandname:hover {
-  background-image: url(images/max-bottinger-YdtQyuweeDc-unsplash.jpg);
+  background-image: url(../images/max-bottinger-YdtQyuweeDc-unsplash.jpg);
 }
 
 .navbackground {
-  background-image: url(images/max-bottinger-YdtQyuweeDc-unsplash.jpg);
+  background-image: url(../images/max-bottinger-YdtQyuweeDc-unsplash.jpg);
   border-radius:0 0 2rem 2rem;
 }
 
