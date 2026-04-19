@@ -252,51 +252,6 @@ with great stack
 
 </div>
 
-<!-- contact form -->
-<div class="" id="contact">
-<p class="designfont" style="color: rgb(30, 48, 80); font-size: 50px;">Contact form</p>
-
-<div class="container">
-  <form action="https://api.web3forms.com/submit" style="background-color: rgb(166, 203, 235); padding: 1rem; border-radius: 2rem; margin: 2rem;" method="POST" class="offset" id="YOUR_FORM_ID">
-    <input type="hidden" name="access_key" value="047f0656-73da-47fe-8d64-6b537c5a1dec">
-    <div class="mb-1">
-     <label for="name" class=" text">Name</label>
-    <input required type="text" name="name" placeholder="Name" class="form-control">
-   </div>
-   <div class="mb-1">
-    <label for="email" class="form-label text">Email</label>
-    <input required type="text" name="email" placeholder="email address" class="form-control">
-   </div>
-
-   <div class="mb-1">
-    <label for="services" class="form-label text">A Service</label>
-  <select name="services"  class="form-control form-select-sm" multiple required>
-  
-  <option value="a Banner">a Banner designing</option>
-    <option value="Logo design">LOGO designing</option>
-  <option value="web development">Website design and development</option>
-  <option value="flier design">FLIERS designing</option>
-  <option value="posters design">POSTERS designing</option>
-</select>
-  </div>
-
-  <div class="mb-1">
-    <label for="message" class="form-label text">Message</label>
-<textarea name="message" placeholder="message..." class="form-control" required></textarea>
-  </div>
-
-<div class="h-captcha" data-captcha="true"></div>
- 
-                     <label>
-                <input type="checkbox" name="checkbox" class="form-check-input mb-3"  style="font-weight: 600; font-size: large;">
-                I want to subscribe to the email newsletter.
-              </label>         
-<div class="mb-1">
-    <button class="offset btn" style="width: 100px; border: 2px black solid;">send</button>
-  </div>
-  </form>
-</div>
-</div>
 
 
 </main>
@@ -361,21 +316,7 @@ with great stack
         </script>
 
 
-<!-- Step 2: Add the Web3Forms script -->
-<script src="https://web3forms.com/client/script.js" async defer></script>
-<script>
-const form = document.getElementById('YOUR_FORM_ID');
 
-form.addEventListener('submit', function(e) {
-
-    const hCaptcha = form.querySelector('textarea[name=h-captcha-response]').value;
-
-    if (!hCaptcha) {
-        e.preventDefault();
-        alert("Please fill out captcha field")
-        return
-    }
-});
 </script>
 <script src="porto.js"></script>
 </body>

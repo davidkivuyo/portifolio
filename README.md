@@ -2,16 +2,18 @@
 <img alt="Static Badge" src="https://img.shields.io/badge/%F0%9F%91%8B%F0%9F%8F%BCWELCOME-to_my_profile-blue?style=for-the-badge">
 
 # my portifolio
-The portifolio [www.davidkivuyo.com ↗️](https://davidkivuyo.github.io/portifolio/)
+The portifolio [www.davidkivuyo.com](https://profile.larason.space)
 
-Our business website [www.davidsfurnitures.infinityfree.me ↗️](https://davidsfurnitures.infinityfree.me)
+Our business website [www.davidsfurnitures.infinityfree.me](https://davidsfurnitures.infinityfree.me)
 
-Our blog [www.davidsfurnitures.site ↗️](https://davidsfurnitures.site)
+Our blog [www.davidsfurnitures.site](https://davidsfurnitures.site)
+
+Our wiki [wiki.larason.space](https://wiki.larason.space)
 
 # My newsletter
 Join the mail, i promise no spam and annoying content👇🏼
 
-[Our newsletter](https://davidkivuyo.github.io/portifolio/newsletter.html)
+[Our newsletter](https://profile.larason.space/newsletter.html)
 
 # Portifolio
 Your own custom portifolio fully customizable with animation thanks to jquery
