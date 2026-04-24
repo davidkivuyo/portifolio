@@ -1,4 +1,4 @@
-# Hello there
+# a portifolio website
 <img alt="Static Badge" src="https://img.shields.io/badge/%F0%9F%91%8B%F0%9F%8F%BCWELCOME-to_my_profile-blue?style=for-the-badge">
 
 ![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/davidkivuyo/portifolio?utm_source=oss&utm_medium=github&utm_campaign=davidkivuyo%2Fportifolio&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
